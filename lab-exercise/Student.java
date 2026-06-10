@@ -1,6 +1,5 @@
-import java.util.*;
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Q1 — OOP Fundamentals & Encapsulation (P–CR)
@@ -17,30 +16,54 @@ import java.util.ArrayList;
  * 提示：方法即使没实现完，也要 return 一个值，保证能编译。
  */
 public class Student {
+    private String name;
+    private List<Integer> grades;
+    private static int counter;
 
-    // TODO: 声明 fields（name、grades、static counter）
+    public void setGrades(List<Integer> grades) {
+        this.grades = grades;
+    }
+
+
+// TODO: 声明 fields（name、grades、static counter）
 
     public Student(String name) {
         // TODO: 验证 name，初始化 fields，更新计数器
+        if(name==null){
+            throw new IllegalArgumentException();
+        }
+        this.grades= new ArrayList<>();
+        this.name=name;
+        counter++;
     }
 
     public String getName() {
         // TODO
-        return null;
+        return this.name;
     }
 
-    public List<Integer> getGrades() {
+    public List getGrades() {
         // TODO: 返回防御性副本
-        return null;
+        return new ArrayList<>(this.grades);
     }
 
     public void addGrade(int grade) {
         // TODO: 验证 0–100，然后加入
+        if (grade<0||grade>100){
+            throw new IllegalArgumentException();
+        }
+        this.grades.add(grade);
     }
 
     public double average() {
         // TODO
-        return 0.0;
+        if (grades.isEmpty()){
+            return 0.0;
+        }
+        for (int i = 0; i <grades.size(); i++) {
+        int sum =0;
+
+        }
     }
 
     public static int getStudentCount() {
