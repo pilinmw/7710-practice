@@ -1,16 +1,14 @@
 # 7710 Practice
 
-This repository contains a simple Java RPG battle example.
+This repository contains COMP7710 practice materials organized into:
 
-## Files
+- `lab-exercise/`: Java lab exercise files.
+- `mock/`: mock exam questions, source files, and provided tests.
+- `finalexam/`: final exam review notes, lecture materials, transcripts, and requirement document.
 
-- `Monster.java`: defines a monster with a name and health points.
-- `Hero.java`: defines a hero with a name and attack power.
-- `GameArena.java`: creates the objects and runs the battle.
-
-## Run
+## Compile Java Sources
 
 ```bash
-javac GameArena.java Hero.java Monster.java
-java GameArena
+javac $(find lab-exercise -name "*.java" ! -name "ProvidedTests.java")
+javac mock/src/*.java
 ```

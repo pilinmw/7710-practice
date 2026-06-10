@@ -1,0 +1,218 @@
+SPEAKER 0
+This material has been reproduced and communicated to you by or on behalf of the Australian National University in accordance with section 113P of the Copyright Act 1968. The material in this communication may be subject to copyright under the act. Any further reproduction or communication of this material by you must be consistent with the provisions of the Act. Do not reproduce this material. Do not remove this notice.
+
+SPEAKER 1
+I OK.
+
+SPEAKER 2
+Hello, everyone. Yeah, great. One lecture. Uh, for the test, so. Anyway, so, well, good to see you here. Um, the test, as you know, will be, uh, on Thursday 9 a.m. I remind you that I post about the the the test like on ESTEM so if you read you're gonna know that if you need a dictionary you should bring to this lecture so we can check and we give you back the dictionary during the exam on Thursday. OK, so if you need that then um at the end of the lecture just. Give them to me And I'll bring them back on Thursday morning. Um, if you didn't see that and you still need one, well, email me, OK? So then I can check that before because if I have like 70 dictionaries like, like to, to do like during the lec during the exam, during the test, then, uh, well, it will not work, right? So I need that to be beforehand. Cool, um, some of you did the coding challenge last Friday, and, uh, well done. We have published the results here, right? So you probably can recognise your UID, but, well, so somehow anonymized, but, um, that's there, so we had like a couple of people, so we put like the top 10 here. Uh, well, well done to that like if you didn't have the chance to go and do it, you can still do it as a preparation for the, the, the test, right? I strongly suggest you practise, right? Like for for the for the test. Um, good. We, before we start, I will just talk a little bit about something that's not a test. Um, but of course it didn't work. And then we go, what to, what we're gonna have. Is it working? Yeah. And then we go, um, we're gonna have, so the session today will be like, oh we will teach some stuff that we need. So in week 6 you are fine. And, um, then we go for a cahoot. Kahoot, I remember you, like it's a, it's a challenge that we're gonna have. So there are lots of questions. They are tricky. Uh, you have a limited time to complete it, so it will be like quite intense, I hope. But also a good preparation, so I would say. Well watch the recordings again if you need to practise those questions. I expect that we're gonna have like a low accuracy today, uh, but that is also good because then you know that you need to prepare, right? So. Let's, uh, after that said, if, if we have some time, then we have like two tutors, uh, here like, uh, Keshav and Kathy. They will be helping like with questions. So I was expecting that today we're gonna have like more people, uh, than we have usually, but no, basically most of you are coming like every week, which is great to see some, some are new I can, I can recognise, of course, uh, but, um, anyway, there, there are people that can help you so. We're going to be here and you can ask questions. Cool. So let's, so last week we, last, uh, yeah, last week, last week we stopped here where we were talking about the relationships between classes, right? Um and um then I stopped uh in this part where we have like this example of the bicycle. Um, so basically here was just to show you. Um, how you have like, uh, the fields, right? Like instance fields and, and the methods relate to a class. So I had like this simple class here. Well, we could go here and just copy this class. That's me, uh. Oops. And then I just create. Of course there are more bars than anything. Just create the class here so as you can see I create the class um in this case what we have is well change cadence change gear, speed up and apply brakes and as you can see here we have like 3 fields so if you remember like what I was talking about encapsulation then um we were talking that well if we need to change like the the the the. State of the class of the object then you would need to go through the methods right and in this case here I didn't teach it yet so there is a visibility where usually we would do like private but I left without anything which means that it's actually package private so you can uh change that um outside the class like someone could actually change that but we're gonna see that uh here. Uh, I forgot to put this one there. Do you remember how can I do that? I just created the class, so I can actually edit that, uh, class. By using that comment, copy here, well, it doesn't matter the indentation now. Um, Then So the next slide, I do have like the, the main, in the case, in this case I'm using the shell so I don't really need to have the main, but we can just create like bike. Oh, it doesn't matter, your bike. Well, well, some think it's not a bike because it's a bicycle. So, you'll see. Well, now something happened there. Wow, oh my God, so many typos. Good, you found the, the bug, you're gonna have that chance again during the test. Right, but let's see if you find that's fast. Well, I hope you do. Anyway, so I created that bike. Thank you for for your help with that. So I, I, I, I, I was telling about, well, using the methods, right? So I can just call the method. Change gear, whatever here and whatever true. So I changed the the gear you of course don't believe me but then you can just sprint, right as I create there and then you're gonna see that here is true. Well just remember that um. Using the the the method then we'll, well probably there will be like some checks right? I cannot change to a negative gear for example in this code I don't have something like testing for that but it could be uh and that would be weird right to have a bike of negative gear at least I don't know any that would have it, uh, but we could, um, in this case. To access right like gear, as you can see, right, like cadence, gear, speed, so I could just do. Whatever something here and that would be. Like -1, right? So just to show you basically this is uh well a class bicycle it's uh we can create an object and the way we created the object is through like this new keywords and bicycle um is the name of the class of course and it's empty here so you didn't see a constructor right these are just normal methods but every time. Like we create a class that will be like a constructor and the constructor will be the one that's creating this object, right, so this new object. So it is hidden because I didn't create it, you're gonna see soon uh more things, but um we could pass some parameters also to initialise that, but in this case we didn't create, just create this, this um bike there like bike whatever here. In this example, just bike 1 and bike 2, and then you can use the methods to see how it changes and print the states so you see how it works. So anyway, this is the object that I created and then you can access the methods associated to these objects by typing that dot tab as in the shell that you can see all the methods that you can use on that one. OK, so. Pretty simple there, but let me try to see how I break it again. OK, seems working. Um So in no not working. No, it's Of course, I never understand. Cool. Break it. Good. You cannot even see that. Mhm hm. Right timing. Um, yeah, cool. OK, if things go wrong during the test, you know, relax, you see, that's how you approach a problem. OK. So great, so we were talking. Share my screen, yeah, that's when the problems start. Can you see? Cool. Um, OK, cool. So, We have seen so far like lots of predefined classes, right? We have worked uh with strings, we have worked with math class and so on. I've just showed you um the bicycle class and so just so you know like everything like in Java would be around classes, right? Like if you need to create a programme, probably you're gonna have to model these classes as we have been talking for a couple of weeks and um. And um and like somehow like take advantage of the matters and states and so on, right? Some classes like the math class, we don't need to actually um instantiate, we can use them as we go, right, so I have to go again here. So I can just, well, let's say math.py, right? And I didn't actually instantiate because you didn't see like the new keyword, right? The new keyword would indicate I am initialising or instantiating. Uh, that class, and then that'll be a new object. But because like math, uh, is a static class, so we don't need to actually do the new and the, these methods and whatever field that they have, like it is in, in the level of the class, not the object, then you don't need that. But anyway, so we can use, like many of these methods as we saw before, and then we see here the math random. Right, and then you can check what the math at random does, right, which is returning that um double value. And this also is a way to demonstrate what encapsulation is, and this is important because in the test, and then I grab your attention in the test we actually ask you to do some stuff that you might not really know what that method does right so in this case I have math.random and if I say that this map, this method returns a double between in this range. Then that's all you need to know, right? Like you don't need to actually go there, check the implementation, and so on, uh, so you just need to know the name of the method and the parameter types, right, like the, the return and the types that you need to pass as input. Um, so anyway, that's like encapsulation, so that's, that's like a Like you can see what it is now. So in the case of the math class here it says like it encapsulates functionality only because like most of the I mean, you just have like these methods like absolute or square root or power and so on, but it does have some fields, but these fields are also static, right, and constant because like there's math.pi, that's not a method, right, that is a variable and is a constant, which we cannot change, um, so, but I can access from anywhere as long as I have the math class with me, right? So anyway, If we are working with these objects in Java, well, we need to construct before they can be used, so that's why if I just will go here, well, I don't have the Bicycle class again, damn it. Let's do it, uh, anyway, uh, no. Bicycle, whatever, I guess I needed to do the class, oops. Right, so I created the class bicycle there, pretend, right? So I, if I just have this, right, I created the class, but I created the object, but um. I don't have access to the methods, well, there is no method because I didn't create the methods, but anyway, the point I want to make here is that um we need to create this object, um, so I created a variable here, but I didn't initialise uh with the objects, so the reference is new, so we need to actually build them to have access to the methods and, and, and fields, so that you use safely. Um, so with the constructions, we'll define this initial state. So in that case that we have the bike, it was just the default. We have seen the default before. So I, when I create that new bicycle here, no arguments are being passed. So this will start with 001s, and that's the first step. If I created a method that would be a constructor with like parameters and these parameters would initialise this uh um uh fields here then it's another story, right? But anyway, so. After we initiate, uh, initialise them, then we can start like invoking the methods. So the Java like all these objects will be created using constructors. Uh there are some situations where you have like a method that we're gonna see later like a factory method that can create. Uh, objects as well, but, uh, it is there'll be always like this constructor there to create these objects for you as I, as I said before you don't see the constructor here, the constructor has the same name of the, the class, but you don't see here because it's simplicit because they didn't create um. Like a list of parameters that they will receive. Um In the case of like a, a, a class called date, right, like in, in Java, then if I create this one here, then I return, right, like the, the, the current date. Right, so Monday, March 23rd. So in this case, well, I create like this this date here and you can see like there is also like the new operator, uh, it will be calling like this. The constructor of that class date and they will initialise to the current date and time. So whenever I create that, it's just telling me like, OK, grab this date from the moment I started. So if I create it here you'll see it'll be changing. Right, um, and creating, of course, like new objects from that class. So in the case of this date class it's an object that represents a specific point in time and it's uh you're gonna see I will tell you a story later about the date one. So um when we create like a variable right here I am type like I have to declare the type of that variable. And in this case, like if I want to create a new date, then of course the type will be returning is date so when I create the variable right now it is just allocating this and then here I will have a reference to the actual object so pointing to where this object is. We have been talking about. This with strings and last week I was even drawing here something but that's actually what I was drawing right like we have a variable this variable will hold a reference to the object itself right so in this moment here what I did was to declare the date right now and as you know it will be new, right? So you start with new and then I can. Do that right now a new date. And this will now hold a specific point in time that is 52451. Cool. So, um, This story that I want to tell you is about like the how these guys actually define this class and I hope you can understand that and I will ask you questions so basically um. This date class was to represent dating, date and time, right? And this was like in the 60s, 70s that they had this, well, they want to represent that and well, it was more a machine oriented representation and they had to fix a time um to basically say like well um from this time I can compute other times. Now, why would they choose January 1st, 1970? So that is like the, the epoch, like that's if anything goes wrong in your computer at the time if you use it like this class, it will actually set to 1970, January 1st. So, um, At that time what they had is like 32 bits to represent that and if they start saying like, well, you know, uh, the world or universe or whatever was 5000 years ago, whatever number, you could not really represent that using 32 bits, right? So they just fixed that on like the 70s and that they could represent like from like back. I don't know how back then, but I know that the next problem with these computers that still use 32 bits will be 2038, right? So because like, well it would, uh, you cannot represent more than that, right, in 32 bits. So anyway, so that was more interesting I guess. So Unix based systems would use that. And um you probably will see when you developing databases and so on, like if you have an error in your date that will be the date and it'll be like why it's 1970. Well, that's why. Anyway, so um There are different ways to represent. So instead of using dates then to represent calendar dates, then we use another one that's called local date, right? So then you have like for time measuring date which has lots of methods that have been deprecated to this date class, but the local date then is used more to represent like a calendar date, so like year, month, and days, and we done so. The reason why I'm showing you that is because like we don't create dates, right, local dates with constructors as we were doing. With the date, right, so here explicitly you are doing the new date and you get a new date now and in the case of local date. Lord, well. Or whatever. LED. Then we have to, we, we can use like uh the method, right, like and then we, we could, well we can just do it. Here. So in this case, I am just create like calling a method that will return an object, right, and you can obviously we can go and see here. So obtains the current date from the system, right? So then that's what is happening here. So, um, differently, well, there are two ways here. I can use also like the local date of, right, and then you're gonna see the different ways that you can create. Oops, more, more. So in this case here, um, I can just like pass like whatever uh which they I put there. And then I create like that day. Um, so, To actually um add like you know like a a variable now and then hold the reference to that object, then of course, you can use like the local date off if you have a date that you want to set there or use now if that's what you need to do, right, like use the, the, the current, Uh, timing point. So after that, like what we are doing is like, well I can get like some information from these dates. So in this case we have the New Year's Eve that I set here and then I want to get the year, right? So you get that year and there is another method here that is like plus days. So I am. I'm just adding like 1000 days, but I'm not adding to the current New Year's Eve. I am actually creating a new object that is 1 day, 1000 days later than that, right? And that's why the way we are creating here is that, well, we use New Year's Eve and It will remain to be New Year's Eve, even though I do these plus days here, because then it will return. A different um object, right? We could do the same, so you see. Uh, that's me. So, so I'm just using like as a chain, so imagine it's like now, then 100. Um, then, well, that would be like 4th of July, right? But I'm not changing now. Well, OK, I can do that. So you have the later day at this time and the right now remains the same, right? So I'm not changing that so obviously you would, See from here that is saying that it's immutable, right? Local data will return a copy of that and it's immutable. OK, cool. So um that's what happens and am I writing this. So anyway, so this is the factory method right like we are instead of using a constructor we are creating we are using a method to create uh these um This object for local date, so this is good because like well improved readability in the sense that in the case of date I was returning the current point in time, but how would you know, right, that I'm using that now I have a method that says like now, right, so very, very uh easy to to understand that well that's what you are returning like the, the, the current time. Um, you can also have like the off like the dot off here and then you have like, well I'm creating uh this object passing these parameters so that would be like the year, uh, month, and day. Which is more complex using other classes in Java for data for dates and then you're gonna see um so again hide implementation details right like we don't know like how it is done, we just like believe it's done so good. Uh, it can control the object creation. You don't see how this object is creating, but maybe like in 2100 or 6442 in the future you will know, understand more like how would you control that, uh, well, probably this course as well, uh, in some future lab you could do that. Uh, you can validate inputs and so on, right? So through these methods then there are a number of controls we can do that would be beneficial. Uh, for your programme and um We're gonna be practising that. So, So, um, in this, in this case, just to show like what I've been, I was doing like in the show, right, in this case, I have like my birthday, which is just in 2 days. Uh, then 100 years later, that's 100 years later, days later, it's the July, uh, July 1st, right, we just, no, the 3rd, uh, then, um. There are what I want to show you here is that there are different other classes as well that you can use to create like um a date right? And in the case of the Gregorian calendar well we have like many different calendars and this would be one of the most used right in this case here what we have is that it creates a uh a date right like well my birthday on this date. Uh, which, which seemed to be wrong, right, but it's not. So, so that you generate that calendar, that date here for my birthday. And then instead of doing the assignment that we were doing here, actually you use this dot ed method, and what the ed method does, it actually changes the information that I had in that variable, right, so it is a mutator method, right? It doesn't return on anything, it actually changes the value of the, uh, That was on my birthday, so you update that thing. The other thing is, well, if you try to get the calendar year there, if you try to get the month or day of the month, etc. you might encounter like this situation where the month is not represented from 1 to 12, but actually is 0 to 11, so it's very programmer friendly, right? So because like months are always 0 to 11. So, so, so there are other ways like to create just look at these definitions of the classes and then you see that sometimes like well why do I need to create like 00 is January, right? and that's why here it's 2, not because it's February, but because Gregorian calendar calendar, like the way it was implemented 2 is actually March, which is like the Well, my birthday. So anyway, main thing here is about constructors and factory methods. Well, constructors will always create a new object. And must return the class type of course in the case of the factory method we may return something that already exists. We can create new objects we can return a differentlementation or a different type and so on. So there are a few things we could do differently if we are not using the. Instructors. OK, so that's pretty much I want to talk, uh, this lecture. So I try just to go through some of these questions with you. It covers like everything that I taught until like from this deck of slides, right? So until this slide. So let's go quickly which paradigm focus primarily on how a computation is performed step by step? Who remembers that? Inherited Cool. Next, Wow, OK, ready for the test. Why does object-oriented design scale better for large systems? See, cool. Which statement best describes the relationship between a class and an object?
+
+SPEAKER 1
+We B, uh, which of the following is state not
+
+SPEAKER 2
+behaviour? C current speed, right? No, it's not a matter. What's encapsulation in object-oriented programming? Hiding internal state and exposing behaviour through methods. If two objects have identical state, are they the same object? No, not naturally. So like not naturally. They can have like uh. Uh, their own identity, right, so D, correct. So in this case here, what does local date of would return. B, a new immutable local date object. Right, so this is um an exercise, uh, that I, you can do after the test. You don't need to do now, uh, but I strongly recommend you to do it. I upload to Canvas. I uploaded to Canvas the, the, the code. You also have this in the book, but I uploaded one with more comments there, so I added comments in the code. I would say don't look at the code. Before you actually try and if you want to look at the code because you cannot hold, that's fine, but just you know it's neat like look at that a little bit and then try to code yourself because after you actually read the code. You know you don't need to think anymore and well it may give you the impression you know how to do it but you actually don't OK so anyway you you would need to create a programme that would generate like this um. This calendar here, right, like the current month and so on, so try before, uh, before the end of this month and try again to run in Ypru so it's working, but of course you can. Simulate you are in another month and test. Cool. So next part of the lecture today is the cahoot thing. Uh, grab your mobiles and uh we have a little competition. But you don't need to participate in the competition if you don't want to. It's just, but just try it.
+
+SPEAKER 1
+Uh, Um I forgot to add my jokes, but anyway,
+
+SPEAKER 2
+so there will be no jokes, OK? Um I think that's it. Classic. OK, so there will be a QR code I guess and uh use your UAD OK? So just use your UAD to as your. Username or whatever they call. OK. OK. OK, so, uh, while you do that, let me tell you a little bit about the test, right? So there'll be 15 questions, um. Try to to read the test before you start doing it. Like there is no actual order in the sense of, you know, the first one is easier than the second. No, there might be like maybe the last one is easier than. The first one, right, so if you see like some questions it's like oh my god I don't know how to do it like that's OK, go to the next one, right? Come back later, right? So don't, don't really worry so there are questions in different categories let's say so some would be easy, some can be more challenging. Uh, I really expect you to have read like these slides, watched the lectures, uh, and done and practised, right? Like if you practise like list of exercises, labs, and, uh, the coding challenge, OK, so, do it, there are details, it is a multiple choice, uh, thing, so obviously. You know you can just like guess stuff so in some ways we'll be challenged yeah I mean you know in the last resource is like I guess right you don't lose any marks by that but I would say well some questions might be tricky, um, so, huh? Yeah. Um, OK, cool. There is someone that's called C. Uh, but, OK, should be using UID, but all good. Uh, anyone here having problems, uh, logging and uh still need some time, or can I start? OK, I will start now. Good luck. So There is a. you cannot really. Well, that's the first question and then you need to choose like between these scholars there. Yeah, yeah, I know. I cannot do now. Uh, hide. Uh, this one, right? Yeah. Cool. Uh, well done. That was easy, right? Tools allow interactive execution of Java code line. Exactly right. JL JVM is the Java virtual machine, right? And Git is used to version control. Java C is to do the compiler. OK, easy, right? Don't be that happy. Next, it's too easy. The first ones I think will be easy now, but Well done 809.
+
+SPEAKER 1
+So The same 27 maybe right like well done so
+
+SPEAKER 2
+we have 9 people that well you need to reveal so OK you see this question right like um some way you have to think a little bit right? It's not just like a sequence of like what J shell is right then OK cool so staged. And the king is 809. Cool. Um, let's go to the next one. That seems easy. You can use JShell quickly. Do it. You should. You'll be surprised. Wow, OK, 1 is down. 1 is down. Great. OK, it's 26 now. Let's see if 8 or 9 is still in the top. Cool. So, well, first you do, uh, well let's show here. So first you did the, the, the sum, right? And then um you concatenate, right? This is. Presidents, OK, cool, huh. Someone was faster and there was a strike. OK, cool. 686-668. Well done. What is printed?
+
+SPEAKER 1
+Hm Oh, yeah, so, um.
+
+SPEAKER 2
+Something interesting here to say when I ask like what is printed, of course like it will not be printed compilation error right? like from that comment so I assume you understand what we mean. No that's that's I'm saying that because maybe in the test you might be like, oh you know like would that be printed as part of it so I think that's kind of obvious, but anyway, cool. Um, so the correct questions obviously is false, right? Who answered false and wants to give us a beautiful explanation? You got it correct. It was not by chance, right? Pranav So equal to equal to is a conditional operator. It is a conditional, and then, but why it's false accurate. Excellent because they are floats and then the representation is not necessarily like 0.3 and then you should use. It it Uh equals. Right. OK, So flat floating precision add to your list, right? I have to reveal that. Cool. 486 is now ahead. I'd like to see your face now. Right? So this is called distraction, right? Like you got scared but it was just to say bullying, right? Very easy, OK? So don't get scared by the question just stop breath and do it. Anyway, boolean, that was a boolean expression, so good. OK, we now have like 3 people still on the top. OK, 26 is still excellent. just where was it? Same column, right? Um, so, and it, it, it is a bug because. I mean, because it's a valid statement, right? It's a valid statement, but like, well, I want to print the, the 5 positive into numbers and you will not do it because you're gonna print like whatever it was I and well that we will not even.
+
+SPEAKER 1
+Should also be uh just less than 5 should be less than equal.
+
+SPEAKER 2
+Where? Oh, yes, yes, true. Yes, but all in the same line, so. I, I do think you've got a typo, actually not the book. But anyway, it works. Yeah, there were, there were a couple of them. I showed up. Yeah, I don't know. It was a typo. It was a typo, yeah, but actually I think there is another one there.
+
+SPEAKER 1
+And that's what you do.
+
+SPEAKER 2
+OK guys, you decide which one is correct. OK, why, why, why, why is that? Because there is a cast, right? There is a cast to double, double is represented. Yes, exactly. OK, well done, um, so. Anyway, not too bad, you've still got that stew, which means you would pass like half. Cool. Uh, Yeah. OK. So it does not print all elements. Why is that? You tell me. OK, cool. Yeah, you're right. Yeah, index out of bounds, right? Because, uh, now I'm going up to the length and that's not a valid position. Cool. So runtime error. OK, top 4. Doing well. Come on, Bernardo. You guys are not participating here. Oh Secretly, but not now. OK, so same issue we had before about floating precision. So the loop will executed exactly 10 times and terminates when X becomes 1 is not true because well it may not actually get like 1.0 right? So it may never terminate so that would be. The correct answer. Well, getting some distance, 46. You have more time, 2 minutes.
+
+SPEAKER 1
+Yeah.
+
+SPEAKER 2
+OK, so, middle and end. Anyone Wants to, yeah, for now.
+
+SPEAKER 1
+At Wednesday and uh It will fall through Yes, so
+
+SPEAKER 2
+the Tuesday, right, like we'll be used here as D. So it will print here because there is no break and then we're using like the traditional switch and it falls through and then print what is here and then breaks, right? So. If it is the intended behaviour, then it's OK, otherwise you would have. Use like switch expressions, which is like with that like arrow, right, the dash and the angular bracket.
+
+SPEAKER 1
+Cool.
+
+SPEAKER 2
+Well, I know that someone will be doing well in the past, right? 486. Well done.
+
+SPEAKER 1
+Uh OK Cool.
+
+SPEAKER 2
+It's just a different end, right? Like the 24. So, all good to go there. Uh, sorry, you're multiplying here, but then here they have the numbers. Numbers were not changed. And then you can just print them. Cool. It seems guessing doesn't work that well. So what is happening here? So, X is 0, right? So it doesn't even meet the first part of it, then prints 0, right? But remember that, uh, what we're talking some past lectures about short circuit, right? So. Even if it is euro, then it wouldn't have the error. kind of I'm sorry to see you go for 86, but many people are happy now. You can still do it, OK? We just need to find 140. OK, cool. Next one. OK. Oh, some people know how it works and would explain to me. Great. How is that? It will increment, so Y is 0 X is 1. Yeah, so what's the value? Yep, and then here. Yeah. Yeah, but then like, well, what would be happening.
+
+SPEAKER 1
+And in case of exit will increment first and then check the value if it is greater than.
+
+SPEAKER 2
+Cool. So, you need to pay attention here that obviously like this will be happening, right? Um. The thing is This is 0, right, and then we are expecting that to be greater than 0, like to be actually like well to to not like run the second statement here because that would be the short circuit, right? And um but anyway, so. Just analyse that. Take a look like in that table that we present like in some of the lectures, and then Check how it works. Cool. You're back there. That's it. Well done. that. Bless you. Was this all like I guessed correctly? Yeah, because like, well, you start from here. Right, and then the last one, this is the like the the the latest, right? So you're gonna see the first this one first and so on, right? The log will be in descending order, right, in terms of time. Good. 697, you can get there, be a little faster, you'll get more points than 486. Healthy competition. Not that fast. Cool. So basically everyone got this correctly. Um, Well, well done. So you just need to replace the code here, right? Total plus equals and then the element there. I told you. You see, like how a good, like, you know, manager. OK, now you 486 faster.
+
+SPEAKER 1
+Oh Cool.
+
+SPEAKER 2
+Why is that? Can someone go through the code?
+
+SPEAKER 1
+Yes, so string Builder was used because it's mutable and
+
+SPEAKER 2
+string is immutable. Then you have to return like a string because this is of the type. Uh, string builder and this returns the string. What else here? Well, then you use like that method that's reverse, right? And reverse is over this not S, right? That is another option because that would be different. Cool. Um, So close. Still Many questions to go. So this lash n is of course a new line, right. Kahoot doesn't allow me to have multiple lines. So the string, right, is hello, string beater, also hello. When I do this concat what happens.
+
+SPEAKER 1
+3 miles a week.
+
+SPEAKER 2
+Return what? I knew A new string, right, new object, new string. So it doesn't changes, right? So it's still hello. And the string builder, as we saw before, it's mutable return like a change like to appends, right, to the same string, so it's hello world, like same one. Cool. So sad. Uh, wait, I still have a few more, OK? But well done 180 164, but I'm supporting 486 now. OK, I'm biassed. I don't even know who he is, but I'm biassed. Anyway, well done 697, hold there. It's actually worth a token, right?
+
+SPEAKER 1
+Go, go, go. Oops.
+
+SPEAKER 2
+Oh, OK. Cool. So that was just like 30 and 100, right? Like, many people think that you need to, it was a double, it's not like long. OK Next one. Amazing. So we know how to do multiplication. Uh, in addition. So it's like first we do that one, right? Like Y times 3 and then we sum. Cool. Well done. And everything is the same. Oh my God, I, I can't read that. Yeah, come, come, come, run. Come on, guys. I cannot change the. Yeah Choose them all. It's more for everyone, so it's OK.
+
+SPEAKER 1
+Part of the people. It's 1.
+
+SPEAKER 2
+It's a Gaussian distribution. OK, cool, uh, 8 because I guessed. Come on. OK, um, so yeah, well, I know, I know, I know, but we, we can try. So what is happening here? So we have like the noon level, right, it's low, median and high values. Then for each of these levels I will do like this switch and then, uh, increment like something. So my count, uh, starts with 0 and the first one is what low. So if it is low, then what I do. Well I add one to what it was in count which means it is one. Now then I check here what I'm checking here. If the reminder right will be 0 or not and then well it's not so I don't run the continue so I actually execute count plus plus, right? So what's the count now? What's the count now? 2, right? 2. Excellent. So then we go median. Then the median is here. 4, right? So now it's 4 then well I continue, right? So I skip that and go here to uh what high. So high is 3, so 7, right? I don't I I skip that because like it's not um then I increment here which makes it 8 and then when I finish then I print and that's why it's 8, OK? So I know there is a pressure of time but. Don't get scared. 486 that's your chance. Yeah, you'll be like uh. Nor I give you another chance. OK, well done, uh, 493, well done, it's your chance now. You don't need to read. That's pretty obvious.
+
+SPEAKER 1
+talk you Yes, yes, well, well done, guys.
+
+SPEAKER 2
+Uh, yeah, so, just so that you know, yeah, we can, that's great. Well done. Let's see who won, right? Let's see who won. But, um, so, um. No worries if you struggled now, right? Like you still have some days to prepare, uh, just to say that the lab sessions are dropping sessions now, like for this week, so just go to your session and ask your tutors. Lots of questions if you need. We also have the feedback session. So last week we had one student going to the feedback session and we had two tutors, uh, there, um, well, giving lots of feedback for that one student. So, um, take advantage of that, right? Like go there, go with like all your, um, labs questions and so on, and get some feedback like, you know, like from, from them. We will be uh releasing um. So remember also that the list of exercises and the labs must be completed by Thursday 9 a.m., so before the test starts, so you have to submit the list of exercises and. Um, labs, OK? Questions. So you saw here of course like the questions are not like that. I have like a limiting the number of characters I can use, right? So it's pretty limited here but it's still um you can see like lots of small details you're gonna be pressured by time during the exam the test so try to relax a little bit. Uh we have 15 questions 75 minutes, OK? Only bring your pen. Right, or whatever you need, but then you're gonna leave all this stuff here in the front. Uh, is there anything that I forgot? Well, read the post on edge, right, and let's see who. Ah, not that one, this one. Well done, 13,000. 697. And 180, well done. Uh, congratulations guys. uh, well done for you. And uh well, I will update like canvas with that information, but, well, take a look, let's see, let's see a session, maybe I can see the session summary. Right, OK, so Well, you know, a credit, a pass actually. That's a pass. Um, How these were like the most difficult ones, that is like the hello one. That is the cast one. Well, the one that nobody could see, so that's OK. Um, let's skip this one. What is printed is like the floating. Mhm And the string builder and the other one. OK, cool. So, uh, I hope you enjoyed this, this was not really worth marks. uh, the, the, the test is redeemable as well, so, you know, relax there, but, um, well, you need to study to try to get like as many marks as you can. There are some questions that are a bit challenging, um, some questions are very, very easy, OK? So if you have questions please let us know we're gonna be around here. The tutors will just come down like and then well we can talk and see what we have. Anyway we're gonna be around and well done let's see. How it goes on Thursday. Uh, how do I finish? Cool. Well, if you have questions, please do now, otherwise go and study. I mean, you can have dinner first.
+
+SPEAKER 1
+OK. I. My daughter that just what did it say. Would, would you see that? would you see that? Yeah. Makes sense. Oh. Physical. Oh, like, uh, yes. You. Yeah and the partner. Uh, like there are different ways to do that so you can have like this. Yes. I Is that on. I So. your body. Check your identify that. Um Yeah. I So this is like comparing the objects. So if we want. The I. I. No. Yeah, so the object. Council so you can go. I Yeah. No is with I, I. what Thank I. I I was first here, so, uh, sorry. Right. So we, we can have like the the. My And. Mm. I Mm. Yeah, that's, yes. I don't know, it's not Yeah, because objects.
+
+SPEAKER 2
+Has, so that's And then the So That Yeah, So,
+
+SPEAKER 1
+it is. If we do like, well, I don't know because we don't need actually that.
+
+SPEAKER 2
+And then we are doing. Um Yeah, it doesn't make sense, but cause we will not have what matters. So if unly what it wants to compare to us.
+
+SPEAKER 1
+Good to be here. Yeah So here not have as well. The point is Yeah So actually it's Wow, yeah, because like, Just, just, just the thing is.
+
+SPEAKER 2
+But the thing is they need the decision.
+
+SPEAKER 1
+So here we are comparing with under this.
+
+SPEAKER 2
+Um, And the problem is not represented by one.
+
+SPEAKER 1
+be Mhm Yeah, something, but, but the, the, the main
+
+SPEAKER 2
+point is like. If you are comparing, like it's not like this is
+
+SPEAKER 1
+not a long, so there's no methods, so that's why you.
+
+SPEAKER 2
+So one and then You need to have a 0
+
+SPEAKER 1
+which is the correct like the true price of -1 is well -1 when we ask the question, so, so, so yes, so basically. If you are trying to compare, like the compare would
+
+SPEAKER 2
+be the best one, I actually used to like more
+
+SPEAKER 1
+like this. 31. Yeah, that's it. So yeah, for the equal, yeah, for the quote, right, uh, so in this case. Yeah, because, well, it should be because along with that have every class we have, we have like. Yes Now we have an object. It would be 3 So let's see 44 so there are. So this is a float as a primitive.
+
+SPEAKER 2
+And this is a float as an object, as much less.
+
+SPEAKER 1
+So obviously they For So, in this case here, you're, Right, and the music's like if the objects are the
+
+SPEAKER 2
+same forces wide spread. So it compares these objects to specify objects.
+
+SPEAKER 1
+So what happens is usually we override this.
+
+SPEAKER 2
+First trying to buy what From what?
+
+SPEAKER 1
+This is The No problem need to regarding ex STEM, so. Right Yeah. Uh Always right Yeah, just a few ideas. Yeah. For This is the same.
+
+SPEAKER 2
+Oh no, just so we get I Oh Good luck. Easy.
+
+SPEAKER 1
+But Yes. it. Yeah Um, I'm just saying But So And that's On arrival but it's growing But that's But I'm, I'm just saying When you Yeah, uh Uh, Yeah If that. I want to inquire about this method, the values. Is there any differences between these values and values of chamber. Manual of But in this case.
+
+SPEAKER 2
+In this case here what we have is the right
+
+SPEAKER 1
+so that we fold in a word. Oh So Yeah. You have the values and the value of something. So if we have values, this will return an array,
+
+SPEAKER 2
+right? The things so it's, it's an array of these things
+
+SPEAKER 1
+and the value of Is the value of something, right? So it's the value of Right So it's the value
+
+SPEAKER 2
+of something and then because it expects a st, then I actually Good, so it returns.
+
+SPEAKER 1
+Like the, the So If you see It will bet Ah, that's returning like. That will be returning like the word, right? So you see like.
+
+SPEAKER 2
+The word value of a string and returns the corresponding.
+
+SPEAKER 1
+Yeah, the content Not the content The values One of these two. Yeah, yeah, so that is what the value is. of who will be returning here, but instead I can
+
+SPEAKER 2
+just This So in this case here. I constant.
+
+SPEAKER 1
+That was fun, right, like I tried to find. Yeah As a good, so it will fine and will return. So this is a For decent People So 9. It's a screen. No, that's a no. Words you see the title here so dono is the
+
+SPEAKER 2
+time. That is also the typed word right, but then I pass a stream to actually return the new type.
+
+SPEAKER 1
+Is there kind of uh it might be value pairs. I imagine like Like this, I'm reading. Yeah Yeah.
+
+SPEAKER 2
+Right, so I'm asking So I could get this as a string and then check as a word type. so it's just. have Did you forget? So we have a Whatever With Right. So I created like just like. 3 days. So this is Condition Where We
